@@ -1,6 +1,7 @@
 package singelton;
 
 import singelton.eagerloading.BookSingelton;
+import singelton.lazyloading.BookSingletonLazy;
 
 public class App {
 
@@ -11,6 +12,15 @@ public class App {
 
         BookSingelton test = BookSingelton.getBook();
         System.out.println(test);
+
+
+        BookSingletonLazy  bookSingletonLazy = BookSingletonLazy.getInstance();
+        System.out.println(bookSingletonLazy);
+
+        BookSingletonLazy  bookSingletonLazy1 = BookSingletonLazy.getInstance();
+        System.out.println(bookSingletonLazy1);
+
+
 
     }
 }
