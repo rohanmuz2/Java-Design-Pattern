@@ -3,7 +3,7 @@ package FactoryMethod;
 import FactoryMethod.service.NonVegBurgerService;
 import FactoryMethod.service.VegBurgerService;
 
-public class app {
+public class App {
 
     public static void main(String[] args) {
         NonVegBurgerService nonVegBurgerService = new NonVegBurgerService();

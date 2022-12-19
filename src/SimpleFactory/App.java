@@ -2,7 +2,7 @@ package SimpleFactory;
 
 import SimpleFactory.factory.SimpleBurgerFactory;
 
-public class Main {
+public class App {
 
     public static void main(String args[]){
 
