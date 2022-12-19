@@ -4,7 +4,7 @@ public class VegBurger implements Burger{
 
 
     public void test(){
-       
+
     }
 
     @Override
